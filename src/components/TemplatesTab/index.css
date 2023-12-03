@@ -1,0 +1,32 @@
+.tab-card {
+  list-style: none;
+  padding-right: 25px;
+  padding-left: 25px;
+  color: #ffffff;
+}
+
+.tab-name {
+  font-size: 18px;
+  background-color: transparent;
+  border: 0px;
+  height: 15px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+.change-theme {
+  color: #fec653;
+}
+
+.change-border {
+  border-bottom: 2px solid #fec653;
+}
+
+@media (max-width: 768px) {
+  .tab-name {
+    font-size: 12px;
+  }
+}
